@@ -10,5 +10,13 @@ Rules:
 2- Any dead cell with three live neighbours becomes a live cell.
 3- All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 ```
+``` 
+Installation and keybindings:
+1- Clone 
+2- cd <filepath>
+3- cargo run
+
+Press space to start/stop execution, left-click to mark cell as alive.
+```
 
 ![gameoflife](https://user-images.githubusercontent.com/92673021/209482896-0b9d3b76-00f6-4dc3-a21c-b1f3fda09fa0.gif)

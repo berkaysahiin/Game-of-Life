@@ -9,7 +9,7 @@ const CELL_SIDE_LENGTH:i32 = 120;
 fn main() {
     let (mut rl, thread) = raylib::init()
         .size(SCREEN_WIDTH, SCREEN_HEIGHT)
-        .title("Hello, World")
+        .title("Game of Life")
         .fullscreen()
         .build();
 
